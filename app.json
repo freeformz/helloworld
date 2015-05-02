@@ -1,0 +1,11 @@
+{
+  "name": "Go Hello World",
+  "description": "Bare bones hello world example",
+  "repository": "https://github.com/freeformz/helloworld",
+  "website": "https://medium.com/@freeformz/hello-world-with-go-heroku-38295332f07b",
+  "keywords": ["golang", "helloworld", "static"],
+  "success_url": "/",
+  "env": {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-go.git"
+  }
+}
